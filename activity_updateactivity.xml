@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student ID"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:textColorHint="#808080"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColor="@color/black"
+        android:textColorHint="#808080"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:textColorHint="#808080"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textColorHint="#808080"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/editCourse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course"
+        android:textColorHint="#808080"
+        android:textColor="@color/black"
+        android:minHeight="48dp"
+        tools:ignore="Autofill,HardcodedText,TextFields,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Update Student"
+        tools:ignore="HardcodedText,VisualLintButtonSize" />
+</LinearLayout>

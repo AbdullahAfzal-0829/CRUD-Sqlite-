@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Student Management System"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/buttonCreate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#673AB7"
+            android:textColor="@color/white"
+            android:text="Create Student"
+            tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/buttonRead"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read Students"
+            android:backgroundTint="@color/black"
+            tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/buttonUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:backgroundTint="#4CAF50"
+            android:text="Update Student"
+            tools:ignore="HardcodedText,TextContrastCheck,VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#9C27B0"
+            android:textColor="@color/white"
+            android:text="Delete Student"
+            tools:ignore="HardcodedText,VisualLintButtonSize"/>
+
+    </LinearLayout>
+</RelativeLayout>
